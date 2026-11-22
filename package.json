@@ -1,0 +1,51 @@
+{
+  "name": "@rzcdz/dsh-sidebar-pins-persist",
+  "version": "1.0.0",
+  "description": "Persists the left sidebar's panel pin choices across DSH restarts.",
+  "license": "MIT",
+  "author": "rzcdz",
+  "type": "module",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "pins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzcdz/dsh-sidebar-pins-persist.git"
+  },
+  "homepage": "https://github.com/rzcdz/dsh-sidebar-pins-persist#readme",
+  "bugs": {
+    "url": "https://github.com/rzcdz/dsh-sidebar-pins-persist/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/en.json",
+    "locale/zh.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

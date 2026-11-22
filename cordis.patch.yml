@@ -1,0 +1,6 @@
+# The Host half is inert: the sidebar's pin list lives in the browser, so this
+# row only makes the package visible to the Client module scan. The Client half
+# replays the saved unpin choices into the sidebar's in-memory pin store.
+- insert:
+    - id: sidebar-pins-persist
+      name: '@rzcdz/dsh-sidebar-pins-persist'

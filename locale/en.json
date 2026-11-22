@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Sidebar pin memory",
+    "description": "Remembers which launchers you unpinned from the left sidebar and replays them after DSH restarts, so an unpinned panel like Remote window stays inside More instead of returning to the sidebar."
+  }
+}

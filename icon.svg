@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="pinsBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b636e" />
+      <stop offset="1" stop-color="#3c434d" />
+    </linearGradient>
+  </defs>
+  <rect x="8.5" y="6.5" width="13" height="15.5" rx="2.6" fill="url(#pinsBody)" />
+  <rect x="12" y="10" width="6" height="1.9" rx="0.95" fill="#cfd5dd" />
+  <rect x="12" y="14.2" width="6" height="1.9" rx="0.95" fill="#cfd5dd" />
+  <path d="M15 22.6v5.2" stroke="#9aa2ad" stroke-width="1.9" stroke-linecap="round" />
+  <circle cx="25.2" cy="25.1" r="6.4" fill="none" stroke="#247bbf" stroke-width="1.9" />
+  <path d="M25.2 21.4v4.3l2.9 1.9" fill="none" stroke="#247bbf" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
