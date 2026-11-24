@@ -1,7 +1,7 @@
 {
   "name": "@rzcdz/dsh-sidebar-pins-persist",
-  "version": "1.0.0",
-  "description": "Persists the left sidebar's panel pin choices across DSH restarts.",
+  "version": "1.1.0",
+  "description": "记住左侧边栏各面板的置顶选择，重启 DSH 后依然保留。",
   "license": "MIT",
   "author": "rzcdz",
   "type": "module",
